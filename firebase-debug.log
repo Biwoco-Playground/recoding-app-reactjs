@@ -1,0 +1,710 @@
+[debug] [2021-07-03T05:09:28.553Z] ----------------------------------------------------------------------
+[debug] [2021-07-03T05:09:28.555Z] Command:       /usr/bin/node /usr/bin/firebase emulators:start
+[debug] [2021-07-03T05:09:28.555Z] CLI Version:   9.14.0
+[debug] [2021-07-03T05:09:28.555Z] Platform:      linux
+[debug] [2021-07-03T05:09:28.555Z] Node Version:  v14.17.1
+[debug] [2021-07-03T05:09:28.555Z] Time:          Sat Jul 03 2021 12:09:28 GMT+0700 (Indochina Time)
+[debug] [2021-07-03T05:09:28.556Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-03T05:09:28.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-03T05:09:28.560Z] > authorizing via signed-in user (nhoxzznhox15@gmail.com)
+[info] i  emulators: Starting emulators: storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: storage"}}
+[debug] [2021-07-03T05:09:28.580Z] [hub] writing locator at /tmp/hub-recording-app-d037c.json
+[debug] [2021-07-03T05:09:28.609Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-07-03T05:09:28.859Z] Temp file directory for storage emulator: /tmp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /tmp/firebase/storage/blobs"}}
+[debug] [2021-07-03T05:09:29.848Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-07-03T05:09:29.848Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-07-03T05:09:29.848Z] Starting Emulator UI with command {"binary":"node","args":["/home/nguyen/.cache/firebase/emulators/ui-v1.5.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/nguyen/.cache/firebase/emulators/ui-v1.5.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-07-03T05:09:29.999Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┬───────────────────────────────┐
+│ Emulator │ Host:Port      │ View in Emulator UI           │
+├──────────┼────────────────┼───────────────────────────────┤
+│ Storage  │ localhost:9199 │ http://localhost:4000/storage │
+└──────────┴────────────────┴───────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
+[info] {"result":{"permit":true},"id":114,"status":"ok"}
+{"result":{"permit":true},"id":115,"status":"ok"}
+{"result":{"permit":true},"id":116,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":114,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":115,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":116,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":150,"status":"ok"}
+{"result":{"permit":true},"id":151,"status":"ok"}
+{"result":{"permit":true},"id":152,"status":"ok"}
+{"result":{"permit":true},"id":153,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":150,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":151,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":152,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":153,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":202,"status":"ok"}
+{"result":{"permit":true},"id":203,"status":"ok"}
+{"result":{"permit":true},"id":204,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":202,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":203,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":204,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":210,"status":"ok"}
+{"result":{"permit":true},"id":211,"status":"ok"}
+{"result":{"permit":true},"id":212,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":210,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":211,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":212,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":219,"status":"ok"}
+{"result":{"permit":true},"id":220,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":219,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":220,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":222,"status":"ok"}
+{"result":{"permit":true},"id":223,"status":"ok"}
+{"result":{"permit":true},"id":224,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":222,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":223,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":224,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":246,"status":"ok"}
+{"result":{"permit":true},"id":247,"status":"ok"}
+{"result":{"permit":true},"id":248,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":246,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":247,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":248,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":252,"status":"ok"}
+{"result":{"permit":true},"id":253,"status":"ok"}
+{"result":{"permit":true},"id":254,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":252,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":253,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":254,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":269,"status":"ok"}
+{"result":{"permit":true},"id":270,"status":"ok"}
+{"result":{"permit":true},"id":271,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":269,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":270,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":271,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":279,"status":"ok"}
+{"result":{"permit":true},"id":280,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":279,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":280,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":283,"status":"ok"}
+{"result":{"permit":true},"id":284,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":283,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":284,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":289,"status":"ok"}
+{"result":{"permit":true},"id":290,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":289,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":290,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":311,"status":"ok"}
+{"result":{"permit":true},"id":312,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":311,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":312,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":354,"status":"ok"}
+{"result":{"permit":true},"id":355,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":354,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":355,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":428,"status":"ok"}
+{"result":{"permit":true},"id":429,"status":"ok"}
+{"result":{"permit":true},"id":430,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":428,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":429,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":430,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":459,"status":"ok"}
+{"result":{"permit":true},"id":460,"status":"ok"}
+{"result":{"permit":true},"id":461,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":459,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":460,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":461,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":467,"status":"ok"}
+{"result":{"permit":true},"id":468,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":467,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":468,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":519,"status":"ok"}
+{"result":{"permit":true},"id":520,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":519,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":520,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":639,"status":"ok"}
+{"result":{"permit":true},"id":640,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":639,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":640,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":652,"status":"ok"}
+{"result":{"permit":true},"id":653,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":652,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":653,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":713,"status":"ok"}
+{"result":{"permit":true},"id":714,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":713,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":714,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":771,"status":"ok"}
+{"result":{"permit":true},"id":772,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":771,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":772,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":787,"status":"ok"}
+{"result":{"permit":true},"id":788,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":787,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":788,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":805,"status":"ok"}
+{"result":{"permit":true},"id":806,"status":"ok"}
+{"result":{"permit":true},"id":807,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":805,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":806,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":807,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":815,"status":"ok"}
+{"result":{"permit":true},"id":816,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":815,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":816,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":842,"status":"ok"}
+{"result":{"permit":true},"id":843,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":842,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":843,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":846,"status":"ok"}
+{"result":{"permit":true},"id":847,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":846,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":847,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":973,"status":"ok"}
+{"result":{"permit":true},"id":974,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":973,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":974,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":981,"status":"ok"}
+{"result":{"permit":true},"id":982,"status":"ok"}
+{"result":{"permit":true},"id":983,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":981,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":982,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":983,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":999,"status":"ok"}
+{"result":{"permit":true},"id":1000,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":999,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1000,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1006,"status":"ok"}
+{"result":{"permit":true},"id":1007,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1006,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1007,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1051,"status":"ok"}
+{"result":{"permit":true},"id":1052,"status":"ok"}
+{"result":{"permit":true},"id":1053,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1051,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1052,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1053,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1145,"status":"ok"}
+{"result":{"permit":true},"id":1146,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1145,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1146,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1173,"status":"ok"}
+{"result":{"permit":true},"id":1174,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1173,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1174,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1179,"status":"ok"}
+{"result":{"permit":true},"id":1180,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1179,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1180,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1190,"status":"ok"}
+{"result":{"permit":true},"id":1191,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1190,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1191,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1197,"status":"ok"}
+{"result":{"permit":true},"id":1198,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1197,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1198,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1240,"status":"ok"}
+{"result":{"permit":true},"id":1241,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1240,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1241,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1247,"status":"ok"}
+{"result":{"permit":true},"id":1248,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1247,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1248,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1249,"status":"ok"}
+{"result":{"permit":true},"id":1250,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1249,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1250,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1282,"status":"ok"}
+{"result":{"permit":true},"id":1283,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1282,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1283,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1284,"status":"ok"}
+{"result":{"permit":true},"id":1285,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1284,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1285,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1287,"status":"ok"}
+{"result":{"permit":true},"id":1288,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1287,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1288,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1292,"status":"ok"}
+{"result":{"permit":true},"id":1293,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1292,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1293,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1294,"status":"ok"}
+{"result":{"permit":true},"id":1295,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1294,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1295,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1299,"status":"ok"}
+{"result":{"permit":true},"id":1300,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1299,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1300,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1301,"status":"ok"}
+{"result":{"permit":true},"id":1302,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1301,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1302,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1306,"status":"ok"}
+{"result":{"permit":true},"id":1307,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1306,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1307,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1308,"status":"ok"}
+{"result":{"permit":true},"id":1309,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1308,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1309,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1310,"status":"ok"}
+{"result":{"permit":true},"id":1311,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1310,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1311,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1326,"status":"ok"}
+{"result":{"permit":true},"id":1327,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1326,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1327,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1328,"status":"ok"}
+{"result":{"permit":true},"id":1329,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1328,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1329,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1583,"status":"ok"}
+{"result":{"permit":true},"id":1584,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1583,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1584,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1595,"status":"ok"}
+{"result":{"permit":true},"id":1596,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1595,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1596,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1958,"status":"ok"}
+{"result":{"permit":true},"id":1959,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1958,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1959,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":1960,"status":"ok"}
+{"result":{"permit":true},"id":1961,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":1960,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":1961,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2305,"status":"ok"}
+{"result":{"permit":true},"id":2306,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2305,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2306,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2307,"status":"ok"}
+{"result":{"permit":true},"id":2308,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2307,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2308,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2327,"status":"ok"}
+{"result":{"permit":true},"id":2328,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2327,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2328,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2334,"status":"ok"}
+{"result":{"permit":true},"id":2335,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2334,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2335,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2339,"status":"ok"}
+{"result":{"permit":true},"id":2340,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2339,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2340,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2683,"status":"ok"}
+{"result":{"permit":true},"id":2684,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2683,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2684,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2687,"status":"ok"}
+{"result":{"permit":true},"id":2688,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2687,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2688,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2692,"status":"ok"}
+{"result":{"permit":true},"id":2693,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2692,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2693,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2694,"status":"ok"}
+{"result":{"permit":true},"id":2695,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2694,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2695,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2698,"status":"ok"}
+{"result":{"permit":true},"id":2699,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2698,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2699,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2700,"status":"ok"}
+{"result":{"permit":true},"id":2701,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2700,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2701,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2730,"status":"ok"}
+{"result":{"permit":true},"id":2731,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2730,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2731,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2736,"status":"ok"}
+{"result":{"permit":true},"id":2737,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2736,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2737,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2777,"status":"ok"}
+{"result":{"permit":true},"id":2778,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2777,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2778,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2884,"status":"ok"}
+{"result":{"permit":true},"id":2885,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2884,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2885,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2892,"status":"ok"}
+{"result":{"permit":true},"id":2893,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2892,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2893,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2894,"status":"ok"}
+{"result":{"permit":true},"id":2895,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2894,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2895,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2897,"status":"ok"}
+{"result":{"permit":true},"id":2898,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2897,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2898,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2900,"status":"ok"}
+{"result":{"permit":true},"id":2901,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2900,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2901,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2903,"status":"ok"}
+{"result":{"permit":true},"id":2904,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2903,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2904,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2907,"status":"ok"}
+{"result":{"permit":true},"id":2908,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2907,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2908,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2915,"status":"ok"}
+{"result":{"permit":true},"id":2916,"status":"ok"}
+{"result":{"permit":true},"id":2917,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2915,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2916,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2917,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":2918,"status":"ok"}
+{"result":{"permit":true},"id":2919,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":2918,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":2919,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":3245,"status":"ok"}
+{"result":{"permit":true},"id":3246,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":3245,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":3246,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":3248,"status":"ok"}
+{"result":{"permit":true},"id":3249,"status":"ok"}
+{"result":{"permit":true},"id":3250,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":3248,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":3249,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":3250,\"status\":\"ok\"}"}}
+[debug] [2021-07-03T11:55:43.726Z] ----------------------------------------------------------------------
+[debug] [2021-07-03T11:55:43.734Z] Command:       /usr/bin/node /usr/bin/firebase emulators:start
+[debug] [2021-07-03T11:55:43.735Z] CLI Version:   9.14.0
+[debug] [2021-07-03T11:55:43.735Z] Platform:      linux
+[debug] [2021-07-03T11:55:43.736Z] Node Version:  v14.17.1
+[debug] [2021-07-03T11:55:43.766Z] Time:          Sat Jul 03 2021 18:55:43 GMT+0700 (Indochina Time)
+[debug] [2021-07-03T11:55:43.767Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-03T11:55:43.820Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-03T11:55:43.821Z] > authorizing via signed-in user (nhoxzznhox15@gmail.com)
+[info] i  emulators: Starting emulators: storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: storage"}}
+[debug] [2021-07-03T11:55:43.853Z] [hub] writing locator at /tmp/hub-recording-app-d037c.json
+[debug] [2021-07-03T11:55:43.923Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-07-03T11:55:45.730Z] Temp file directory for storage emulator: /tmp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /tmp/firebase/storage/blobs"}}
+[debug] [2021-07-03T11:55:46.944Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-07-03T11:55:46.945Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-07-03T11:55:46.946Z] Starting Emulator UI with command {"binary":"node","args":["/home/nguyen/.cache/firebase/emulators/ui-v1.5.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/home/nguyen/.cache/firebase/emulators/ui-v1.5.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-07-03T11:55:47.127Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┬───────────────────────────────┐
+│ Emulator │ Host:Port      │ View in Emulator UI           │
+├──────────┼────────────────┼───────────────────────────────┤
+│ Storage  │ localhost:9199 │ http://localhost:4000/storage │
+└──────────┴────────────────┴───────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] {"result":{"permit":true},"id":40552,"status":"ok"}
+{"result":{"permit":true},"id":40553,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":40552,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":40553,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":40925,"status":"ok"}
+{"result":{"permit":true},"id":40926,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":40925,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":40926,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":40927,"status":"ok"}
+{"result":{"permit":true},"id":40928,"status":"ok"}
+{"result":{"permit":true},"id":40929,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":40927,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":40928,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":40929,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42041,"status":"ok"}
+{"result":{"permit":true},"id":42042,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42041,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42042,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42066,"status":"ok"}
+{"result":{"permit":true},"id":42067,"status":"ok"}
+{"result":{"permit":true},"id":42068,"status":"ok"}
+{"result":{"permit":true},"id":42069,"status":"ok"}
+{"result":{"permit":true},"id":42070,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42066,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42067,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42068,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42069,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42070,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42077,"status":"ok"}
+{"result":{"permit":true},"id":42078,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42077,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42078,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42080,"status":"ok"}
+{"result":{"permit":true},"id":42081,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42080,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42081,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42091,"status":"ok"}
+{"result":{"permit":true},"id":42092,"status":"ok"}
+{"result":{"permit":true},"id":42093,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42091,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42092,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42093,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42101,"status":"ok"}
+{"result":{"permit":true},"id":42102,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42101,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42102,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42136,"status":"ok"}
+{"result":{"permit":true},"id":42137,"status":"ok"}
+{"result":{"permit":true},"id":42138,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42136,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42137,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42138,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42139,"status":"ok"}
+{"result":{"permit":true},"id":42140,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42139,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42140,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42151,"status":"ok"}
+{"result":{"permit":true},"id":42152,"status":"ok"}
+{"result":{"permit":true},"id":42153,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42151,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42152,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42153,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42154,"status":"ok"}
+{"result":{"permit":true},"id":42155,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42154,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42155,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42161,"status":"ok"}
+{"result":{"permit":true},"id":42162,"status":"ok"}
+{"result":{"permit":true},"id":42163,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42161,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42162,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42163,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42164,"status":"ok"}
+{"result":{"permit":true},"id":42165,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42164,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42165,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42181,"status":"ok"}
+{"result":{"permit":true},"id":42182,"status":"ok"}
+{"result":{"permit":true},"id":42183,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42181,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42182,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42183,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42190,"status":"ok"}
+{"result":{"permit":true},"id":42191,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42190,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42191,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42289,"status":"ok"}
+{"result":{"permit":true},"id":42290,"status":"ok"}
+{"result":{"permit":true},"id":42291,"status":"ok"}
+{"result":{"permit":true},"id":42292,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42289,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42290,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42291,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42292,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42299,"status":"ok"}
+{"result":{"permit":true},"id":42300,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42299,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42300,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42304,"status":"ok"}
+{"result":{"permit":true},"id":42305,"status":"ok"}
+{"result":{"permit":true},"id":42306,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42304,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42305,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42306,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42307,"status":"ok"}
+{"result":{"permit":true},"id":42308,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42307,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42308,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42390,"status":"ok"}
+{"result":{"permit":true},"id":42391,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42390,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42391,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42393,"status":"ok"}
+{"result":{"permit":true},"id":42394,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42393,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42394,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42406,"status":"ok"}
+{"result":{"permit":true},"id":42407,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42406,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42407,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42415,"status":"ok"}
+{"result":{"permit":true},"id":42416,"status":"ok"}
+{"result":{"permit":true},"id":42417,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42415,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42416,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42417,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42419,"status":"ok"}
+{"result":{"permit":true},"id":42420,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42419,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42420,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42470,"status":"ok"}
+{"result":{"permit":true},"id":42471,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42470,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42471,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42473,"status":"ok"}
+{"result":{"permit":true},"id":42474,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42473,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42474,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42484,"status":"ok"}
+{"result":{"permit":true},"id":42485,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42484,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42485,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42493,"status":"ok"}
+{"result":{"permit":true},"id":42494,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42493,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42494,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42500,"status":"ok"}
+{"result":{"permit":true},"id":42501,"status":"ok"}
+{"result":{"permit":true},"id":42502,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42500,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42501,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42502,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42517,"status":"ok"}
+{"result":{"permit":true},"id":42518,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42517,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42518,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42521,"status":"ok"}
+{"result":{"permit":true},"id":42522,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42521,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42522,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42527,"status":"ok"}
+{"result":{"permit":true},"id":42528,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42527,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42528,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42541,"status":"ok"}
+{"result":{"permit":true},"id":42542,"status":"ok"}
+{"result":{"permit":true},"id":42543,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42541,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42542,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42543,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42557,"status":"ok"}
+{"result":{"permit":true},"id":42558,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42557,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42558,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42562,"status":"ok"}
+{"result":{"permit":true},"id":42563,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42562,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42563,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42572,"status":"ok"}
+{"result":{"permit":true},"id":42573,"status":"ok"}
+{"result":{"permit":true},"id":42574,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42572,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42573,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42574,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42577,"status":"ok"}
+{"result":{"permit":true},"id":42578,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42577,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42578,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42585,"status":"ok"}
+{"result":{"permit":true},"id":42586,"status":"ok"}
+{"result":{"permit":true},"id":42587,"status":"ok"}
+{"result":{"permit":true},"id":42588,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42585,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42586,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42587,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42588,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42597,"status":"ok"}
+{"result":{"permit":true},"id":42598,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42597,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42598,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42602,"status":"ok"}
+{"result":{"permit":true},"id":42603,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42602,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42603,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42611,"status":"ok"}
+{"result":{"permit":true},"id":42612,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42611,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42612,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42617,"status":"ok"}
+{"result":{"permit":true},"id":42618,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42617,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42618,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42631,"status":"ok"}
+{"result":{"permit":true},"id":42632,"status":"ok"}
+{"result":{"permit":true},"id":42633,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42631,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42632,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42633,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42641,"status":"ok"}
+{"result":{"permit":true},"id":42642,"status":"ok"}
+{"result":{"permit":true},"id":42643,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42641,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42642,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42643,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42652,"status":"ok"}
+{"result":{"permit":true},"id":42653,"status":"ok"}
+{"result":{"permit":true},"id":42654,"status":"ok"}
+{"result":{"permit":true},"id":42655,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42652,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42653,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42654,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42655,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42685,"status":"ok"}
+{"result":{"permit":true},"id":42686,"status":"ok"}
+{"result":{"permit":true},"id":42687,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42685,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42686,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42687,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42691,"status":"ok"}
+{"result":{"permit":true},"id":42692,"status":"ok"}
+{"result":{"permit":true},"id":42693,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42691,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42692,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42693,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42705,"status":"ok"}
+{"result":{"permit":true},"id":42706,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42705,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42706,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42715,"status":"ok"}
+{"result":{"permit":true},"id":42716,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42715,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42716,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42721,"status":"ok"}
+{"result":{"permit":true},"id":42722,"status":"ok"}
+{"result":{"permit":true},"id":42723,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42721,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42722,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42723,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42738,"status":"ok"}
+{"result":{"permit":true},"id":42739,"status":"ok"}
+{"result":{"permit":true},"id":42740,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42738,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42739,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42740,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42745,"status":"ok"}
+{"result":{"permit":true},"id":42746,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42745,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42746,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42747,"status":"ok"}
+{"result":{"permit":true},"id":42748,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42747,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42748,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42751,"status":"ok"}
+{"result":{"permit":true},"id":42752,"status":"ok"}
+{"result":{"permit":true},"id":42753,"status":"ok"}
+{"result":{"permit":true},"id":42754,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42751,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42752,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42753,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42754,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42763,"status":"ok"}
+{"result":{"permit":true},"id":42764,"status":"ok"}
+{"result":{"permit":true},"id":42765,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42763,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42764,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42765,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42768,"status":"ok"}
+{"result":{"permit":true},"id":42769,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42768,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42769,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42771,"status":"ok"}
+{"result":{"permit":true},"id":42772,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42771,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42772,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42780,"status":"ok"}
+{"result":{"permit":true},"id":42781,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42780,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42781,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42787,"status":"ok"}
+{"result":{"permit":true},"id":42788,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42787,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42788,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42794,"status":"ok"}
+{"result":{"permit":true},"id":42795,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42794,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42795,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42809,"status":"ok"}
+{"result":{"permit":true},"id":42810,"status":"ok"}
+{"result":{"permit":true},"id":42811,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42809,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42810,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42811,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42815,"status":"ok"}
+{"result":{"permit":true},"id":42816,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42815,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42816,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42820,"status":"ok"}
+{"result":{"permit":true},"id":42821,"status":"ok"}
+{"result":{"permit":true},"id":42822,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42820,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42821,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42822,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42826,"status":"ok"}
+{"result":{"permit":true},"id":42827,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42826,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42827,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42843,"status":"ok"}
+{"result":{"permit":true},"id":42844,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42843,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42844,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42845,"status":"ok"}
+{"result":{"permit":true},"id":42846,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42845,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42846,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42859,"status":"ok"}
+{"result":{"permit":true},"id":42860,"status":"ok"}
+{"result":{"permit":true},"id":42861,"status":"ok"}
+{"result":{"permit":true},"id":42862,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42859,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42860,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42861,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42862,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42868,"status":"ok"}
+{"result":{"permit":true},"id":42869,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42868,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42869,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42874,"status":"ok"}
+{"result":{"permit":true},"id":42875,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42874,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42875,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42886,"status":"ok"}
+{"result":{"permit":true},"id":42887,"status":"ok"}
+{"result":{"permit":true},"id":42888,"status":"ok"}
+{"result":{"permit":true},"id":42889,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42886,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42887,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42888,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42889,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42890,"status":"ok"}
+{"result":{"permit":true},"id":42891,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42890,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42891,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42909,"status":"ok"}
+{"result":{"permit":true},"id":42910,"status":"ok"}
+{"result":{"permit":true},"id":42911,"status":"ok"}
+{"result":{"permit":true},"id":42912,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42909,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42910,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42911,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42912,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42927,"status":"ok"}
+{"result":{"permit":true},"id":42928,"status":"ok"}
+{"result":{"permit":true},"id":42929,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42927,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42928,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42929,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42942,"status":"ok"}
+{"result":{"permit":true},"id":42943,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42942,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42943,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42951,"status":"ok"}
+{"result":{"permit":true},"id":42952,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42951,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42952,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42959,"status":"ok"}
+{"result":{"permit":true},"id":42960,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42959,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42960,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":42967,"status":"ok"}
+{"result":{"permit":true},"id":42968,"status":"ok"}
+{"result":{"permit":true},"id":42969,"status":"ok"}
+{"result":{"permit":true},"id":42970,"status":"ok"}
+{"result":{"permit":true},"id":42971,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":42967,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42968,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42969,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42970,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":42971,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43195,"status":"ok"}
+{"result":{"permit":true},"id":43196,"status":"ok"}
+{"result":{"permit":true},"id":43197,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43195,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43196,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43197,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43207,"status":"ok"}
+{"result":{"permit":true},"id":43208,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43207,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43208,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43227,"status":"ok"}
+{"result":{"permit":true},"id":43228,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43227,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43228,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43229,"status":"ok"}
+{"result":{"permit":true},"id":43230,"status":"ok"}
+{"result":{"permit":true},"id":43231,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43229,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43230,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43231,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43256,"status":"ok"}
+{"result":{"permit":true},"id":43257,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43256,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43257,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43259,"status":"ok"}
+{"result":{"permit":true},"id":43260,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43259,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43260,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43271,"status":"ok"}
+{"result":{"permit":true},"id":43272,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43271,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43272,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43275,"status":"ok"}
+{"result":{"permit":true},"id":43276,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43275,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43276,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":43280,"status":"ok"}
+{"result":{"permit":true},"id":43281,"status":"ok"}
+{"result":{"permit":true},"id":43282,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":43280,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43281,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":43282,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44091,"status":"ok"}
+{"result":{"permit":true},"id":44092,"status":"ok"}
+{"result":{"permit":true},"id":44093,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44091,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44092,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44093,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44095,"status":"ok"}
+{"result":{"permit":true},"id":44096,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44095,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44096,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44227,"status":"ok"}
+{"result":{"permit":true},"id":44228,"status":"ok"}
+{"result":{"permit":true},"id":44229,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44227,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44228,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44229,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44242,"status":"ok"}
+{"result":{"permit":true},"id":44243,"status":"ok"}
+{"result":{"permit":true},"id":44244,"status":"ok"}
+{"result":{"permit":true},"id":44245,"status":"ok"}
+{"result":{"permit":true},"id":44246,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44242,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44243,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44244,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44245,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44246,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44256,"status":"ok"}
+{"result":{"permit":true},"id":44257,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44256,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44257,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44259,"status":"ok"}
+{"result":{"permit":true},"id":44260,"status":"ok"}
+{"result":{"permit":true},"id":44261,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44259,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44260,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44261,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44294,"status":"ok"}
+{"result":{"permit":true},"id":44295,"status":"ok"}
+{"result":{"permit":true},"id":44296,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44294,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44295,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44296,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44301,"status":"ok"}
+{"result":{"permit":true},"id":44302,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44301,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44302,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44312,"status":"ok"}
+{"result":{"permit":true},"id":44313,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44312,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44313,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44314,"status":"ok"}
+{"result":{"permit":true},"id":44315,"status":"ok"}
+{"result":{"permit":true},"id":44316,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44314,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44315,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44316,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44325,"status":"ok"}
+{"result":{"permit":true},"id":44326,"status":"ok"}
+{"result":{"permit":true},"id":44327,"status":"ok"}
+{"result":{"permit":true},"id":44328,"status":"ok"}
+{"result":{"permit":true},"id":44329,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44325,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44326,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44327,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44328,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44329,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44416,"status":"ok"}
+{"result":{"permit":true},"id":44417,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44416,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44417,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44420,"status":"ok"}
+{"result":{"permit":true},"id":44421,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44420,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44421,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44433,"status":"ok"}
+{"result":{"permit":true},"id":44434,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44433,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44434,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44440,"status":"ok"}
+{"result":{"permit":true},"id":44441,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44440,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44441,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44445,"status":"ok"}
+{"result":{"permit":true},"id":44446,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44445,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44446,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44467,"status":"ok"}
+{"result":{"permit":true},"id":44468,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44467,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44468,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44477,"status":"ok"}
+{"result":{"permit":true},"id":44478,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44477,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44478,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44479,"status":"ok"}
+{"result":{"permit":true},"id":44480,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44479,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44480,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44481,"status":"ok"}
+{"result":{"permit":true},"id":44482,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44481,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44482,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44483,"status":"ok"}
+{"result":{"permit":true},"id":44484,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44483,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44484,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44488,"status":"ok"}
+{"result":{"permit":true},"id":44489,"status":"ok"}
+{"result":{"permit":true},"id":44490,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44488,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44489,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44490,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":44495,"status":"ok"}
+{"result":{"permit":true},"id":44496,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":44495,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":44496,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45627,"status":"ok"}
+{"result":{"permit":true},"id":45628,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45627,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45628,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45641,"status":"ok"}
+{"result":{"permit":true},"id":45642,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45641,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45642,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45649,"status":"ok"}
+{"result":{"permit":true},"id":45650,"status":"ok"}
+{"result":{"permit":true},"id":45651,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45649,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45650,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45651,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45672,"status":"ok"}
+{"result":{"permit":true},"id":45673,"status":"ok"}
+{"result":{"permit":true},"id":45674,"status":"ok"}
+{"result":{"permit":true},"id":45675,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45672,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45673,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45674,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45675,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45688,"status":"ok"}
+{"result":{"permit":true},"id":45689,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45688,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45689,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45691,"status":"ok"}
+{"result":{"permit":true},"id":45692,"status":"ok"}
+{"result":{"permit":true},"id":45693,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45691,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45692,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45693,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45697,"status":"ok"}
+{"result":{"permit":true},"id":45698,"status":"ok"}
+{"result":{"permit":true},"id":45699,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45697,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45698,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45699,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45702,"status":"ok"}
+{"result":{"permit":true},"id":45703,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45702,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45703,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45717,"status":"ok"}
+{"result":{"permit":true},"id":45718,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45717,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45718,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45727,"status":"ok"}
+{"result":{"permit":true},"id":45728,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45727,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45728,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45737,"status":"ok"}
+{"result":{"permit":true},"id":45738,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45737,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45738,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45746,"status":"ok"}
+{"result":{"permit":true},"id":45747,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45746,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45747,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45757,"status":"ok"}
+{"result":{"permit":true},"id":45758,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45757,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45758,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45763,"status":"ok"}
+{"result":{"permit":true},"id":45764,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45763,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45764,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45772,"status":"ok"}
+{"result":{"permit":true},"id":45773,"status":"ok"}
+{"result":{"permit":true},"id":45774,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45772,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45773,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45774,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45776,"status":"ok"}
+{"result":{"permit":true},"id":45777,"status":"ok"}
+{"result":{"permit":true},"id":45778,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45776,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45777,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45778,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45789,"status":"ok"}
+{"result":{"permit":true},"id":45790,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45789,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45790,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45824,"status":"ok"}
+{"result":{"permit":true},"id":45825,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45824,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45825,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45834,"status":"ok"}
+{"result":{"permit":true},"id":45835,"status":"ok"}
+{"result":{"permit":true},"id":45836,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45834,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45835,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45836,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45845,"status":"ok"}
+{"result":{"permit":true},"id":45846,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45845,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45846,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45869,"status":"ok"}
+{"result":{"permit":true},"id":45870,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45869,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45870,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45871,"status":"ok"}
+{"result":{"permit":true},"id":45872,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45871,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45872,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45876,"status":"ok"}
+{"result":{"permit":true},"id":45877,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45876,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45877,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45880,"status":"ok"}
+{"result":{"permit":true},"id":45881,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45880,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45881,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45908,"status":"ok"}
+{"result":{"permit":true},"id":45909,"status":"ok"}
+{"result":{"permit":true},"id":45910,"status":"ok"}
+{"result":{"permit":true},"id":45911,"status":"ok"}
+{"result":{"permit":true},"id":45912,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45908,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45909,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45910,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45911,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45912,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45918,"status":"ok"}
+{"result":{"permit":true},"id":45919,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45918,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45919,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45921,"status":"ok"}
+{"result":{"permit":true},"id":45922,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45921,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45922,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45926,"status":"ok"}
+{"result":{"permit":true},"id":45927,"status":"ok"}
+{"result":{"permit":true},"id":45928,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45926,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45927,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45928,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45929,"status":"ok"}
+{"result":{"permit":true},"id":45930,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45929,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45930,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45934,"status":"ok"}
+{"result":{"permit":true},"id":45935,"status":"ok"}
+{"result":{"permit":true},"id":45936,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45934,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45935,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45936,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45946,"status":"ok"}
+{"result":{"permit":true},"id":45947,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45946,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45947,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45955,"status":"ok"}
+{"result":{"permit":true},"id":45956,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45955,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45956,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45968,"status":"ok"}
+{"result":{"permit":true},"id":45969,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45968,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45969,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45970,"status":"ok"}
+{"result":{"permit":true},"id":45971,"status":"ok"}
+{"result":{"permit":true},"id":45972,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45970,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45971,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45972,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45978,"status":"ok"}
+{"result":{"permit":true},"id":45979,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45978,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45979,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45980,"status":"ok"}
+{"result":{"permit":true},"id":45981,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45980,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45981,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45985,"status":"ok"}
+{"result":{"permit":true},"id":45986,"status":"ok"}
+{"result":{"permit":true},"id":45987,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45985,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45986,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45987,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45993,"status":"ok"}
+{"result":{"permit":true},"id":45994,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45993,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45994,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":45995,"status":"ok"}
+{"result":{"permit":true},"id":45996,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":45995,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":45996,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46003,"status":"ok"}
+{"result":{"permit":true},"id":46004,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46003,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46004,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46010,"status":"ok"}
+{"result":{"permit":true},"id":46011,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46010,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46011,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46016,"status":"ok"}
+{"result":{"permit":true},"id":46017,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46016,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46017,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46027,"status":"ok"}
+{"result":{"permit":true},"id":46028,"status":"ok"}
+{"result":{"permit":true},"id":46029,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46027,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46028,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46029,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46033,"status":"ok"}
+{"result":{"permit":true},"id":46034,"status":"ok"}
+{"result":{"permit":true},"id":46035,"status":"ok"}
+{"result":{"permit":true},"id":46036,"status":"ok"}
+{"result":{"permit":true},"id":46037,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46033,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46034,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46035,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46036,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46037,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46049,"status":"ok"}
+{"result":{"permit":true},"id":46050,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46049,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46050,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46052,"status":"ok"}
+{"result":{"permit":true},"id":46053,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46052,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46053,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46068,"status":"ok"}
+{"result":{"permit":true},"id":46069,"status":"ok"}
+{"result":{"permit":true},"id":46070,"status":"ok"}
+{"result":{"permit":true},"id":46071,"status":"ok"}
+{"result":{"permit":true},"id":46072,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46068,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46069,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46070,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46071,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46072,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46075,"status":"ok"}
+{"result":{"permit":true},"id":46076,"status":"ok"}
+{"result":{"permit":true},"id":46077,"status":"ok"}
+{"result":{"permit":true},"id":46078,"status":"ok"}
+{"result":{"permit":true},"id":46079,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46075,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46076,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46077,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46078,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46079,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46085,"status":"ok"}
+{"result":{"permit":true},"id":46086,"status":"ok"}
+{"result":{"permit":true},"id":46087,"status":"ok"}
+{"result":{"permit":true},"id":46088,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46085,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46086,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46087,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46088,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46531,"status":"ok"}
+{"result":{"permit":true},"id":46532,"status":"ok"}
+{"result":{"permit":true},"id":46533,"status":"ok"}
+{"result":{"permit":true},"id":46534,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46531,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46532,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46533,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46534,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46595,"status":"ok"}
+{"result":{"permit":true},"id":46596,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46595,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46596,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46598,"status":"ok"}
+{"result":{"permit":true},"id":46599,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46598,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46599,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46628,"status":"ok"}
+{"result":{"permit":true},"id":46629,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46628,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46629,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46631,"status":"ok"}
+{"result":{"permit":true},"id":46632,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46631,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46632,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46633,"status":"ok"}
+{"result":{"permit":true},"id":46634,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46633,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46634,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46682,"status":"ok"}
+{"result":{"permit":true},"id":46683,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46682,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46683,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46696,"status":"ok"}
+{"result":{"permit":true},"id":46697,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46696,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46697,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46857,"status":"ok"}
+{"result":{"permit":true},"id":46858,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46857,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46858,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":46977,"status":"ok"}
+{"result":{"permit":true},"id":46978,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":46977,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":46978,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47143,"status":"ok"}
+{"result":{"permit":true},"id":47144,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47143,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47144,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47168,"status":"ok"}
+{"result":{"permit":true},"id":47169,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47168,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47169,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47170,"status":"ok"}
+{"result":{"permit":true},"id":47171,"status":"ok"}
+{"result":{"permit":true},"id":47172,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47170,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47171,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47172,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47174,"status":"ok"}
+{"result":{"permit":true},"id":47175,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47174,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47175,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47232,"status":"ok"}
+{"result":{"permit":true},"id":47233,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47232,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47233,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47256,"status":"ok"}
+{"result":{"permit":true},"id":47257,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47256,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47257,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47440,"status":"ok"}
+{"result":{"permit":true},"id":47441,"status":"ok"}
+{"result":{"permit":true},"id":47442,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47440,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47441,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47442,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47492,"status":"ok"}
+{"result":{"permit":true},"id":47493,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47492,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47493,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47494,"status":"ok"}
+{"result":{"permit":true},"id":47495,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47494,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47495,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47578,"status":"ok"}
+{"result":{"permit":true},"id":47579,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47578,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47579,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47580,"status":"ok"}
+{"result":{"permit":true},"id":47581,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47580,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47581,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47613,"status":"ok"}
+{"result":{"permit":true},"id":47614,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47613,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47614,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47697,"status":"ok"}
+{"result":{"permit":true},"id":47698,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47697,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47698,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47700,"status":"ok"}
+{"result":{"permit":true},"id":47701,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47700,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47701,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47705,"status":"ok"}
+{"result":{"permit":true},"id":47706,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47705,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47706,\"status\":\"ok\"}"}}
+[info] {"result":{"permit":true},"id":47772,"status":"ok"}
+{"result":{"permit":true},"id":47773,"status":"ok"} {"metadata":{"emulator":{"name":"storage"},"message":"{\"result\":{\"permit\":true},\"id\":47772,\"status\":\"ok\"}\n{\"result\":{\"permit\":true},\"id\":47773,\"status\":\"ok\"}"}}

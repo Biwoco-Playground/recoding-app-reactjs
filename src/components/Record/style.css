@@ -1,0 +1,42 @@
+main {
+    width: 100%;
+}
+
+.btn-control {
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #6ea5ff;
+    box-shadow: rgba(69, 69, 255, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    padding: 10px 0px;
+}
+
+.options label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.options input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #111111;
+}
