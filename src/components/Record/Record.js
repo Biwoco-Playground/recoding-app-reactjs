@@ -70,6 +70,8 @@ export default function Record() {
         });
     }, [audio]);
 
+
+    //Function to get list audio recorded
     const getList = async () => {
 
         const res = await storageRef.listAll();
@@ -79,6 +81,7 @@ export default function Record() {
         }
     }
 
+    //Get list after start loading page
     useEffect(() => {
         listAudio.current.innerHTML = "";
         getList();
@@ -99,6 +102,7 @@ export default function Record() {
         }
     }
 
+    //Function to start recording
     const startRecording = async () => {
         const audioToggle = await navigator.mediaDevices.getUserMedia({
             audio: true,
@@ -108,6 +112,7 @@ export default function Record() {
         setAudio(audioToggle);
     }
 
+    //Function to stop recording
     const stopRecording = (mediaRecord) => {
         if(isMode == 2) return;
         mediaRecord.stop();
