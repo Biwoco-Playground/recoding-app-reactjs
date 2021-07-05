@@ -11,20 +11,19 @@ export default function Record() {
     const [audioURL, setAudioURL] = useState([]);
     const [timeCount, setTimeCount] = useState(0);
     const [isMode, setIsMode] = useState(1);
+    const [isRecording, setIsRecording] = useState(false);
 
-    const listAudio = useRef();
-    const timeDuring = useRef();
-    const timeStart = useRef();
+    let timeS = 0;
+    let timeout = null;
+
+    const listAudio = useRef(null);
+    const recordingBtn = useRef(null);
 
     useEffect(() => {
-        if (!audio || isMode == 2) return;
+        if(!audio) return;
 
         //Create MediaRecord
         let mediaRecord = new MediaRecorder(audio);
-
-        let timeD = (timeDuring !== "") ? timeDuring.current.value : 0;   
-
-        if(timeD > 0) setIsMode(2);
 
         //Set mediaRecord
         setMediaRecord(mediaRecord);
@@ -34,7 +33,7 @@ export default function Record() {
 
         let count = 1;
         let time = setInterval(() => {
-            if(count > timeD && timeD > 0){
+            if(count > 10 && isMode == 2){
                 clearInterval(time);
                 stopRecording(mediaRecord);
             }
@@ -54,10 +53,19 @@ export default function Record() {
             let blob = new Blob(chunks);
             let url = URL.createObjectURL(blob);
 
+            setIsRecording(false);
+            recordingBtn.current.classList.remove("recording");
+
             clearInterval(time);
             setTimeCount(0);
 
-            listAudio.current.innerHTML += `<li><audio src=${url} controls="1"></audio></li>`;
+            //Add audio to HTML Element
+            const liHTML = document.createElement("li");
+            const audioHTML = new Audio();
+            audioHTML.setAttribute("src", url);
+            audioHTML.setAttribute("controls", "1");
+            liHTML.prepend(audioHTML);
+            listAudio.current.prepend(liHTML);
 
             //Create File MP3
             let file = new File(chunks, makeid(10), {
@@ -77,7 +85,14 @@ export default function Record() {
         const res = await storageRef.listAll();
         for(let i=0;i<res.items.length;i++){
             const url = await res.items[i].getDownloadURL();
-            listAudio.current.innerHTML += `<li><audio src=${url} controls="1"></audio></li>`;
+
+            //Add audio to HTML Element
+            const liHTML = document.createElement("li");
+            const audioHTML = new Audio();
+            audioHTML.setAttribute("src", url);
+            audioHTML.setAttribute("controls", "1");
+            liHTML.prepend(audioHTML);
+            listAudio.current.prepend(liHTML);
         }
     }
 
@@ -88,16 +103,17 @@ export default function Record() {
     }, [])
 
     //Function to toggle record mode
-    const toggleRecording = () => {
-        if (!audio) {
+    const toggleRecording = (e) => {
+        if (!audio && !isRecording) {
 
-            let timeS = (timeStart !== "") ? timeStart.current.value : 0; 
+            if(isMode == 2) timeS = 5; 
+            setIsRecording(true);
+            recordingBtn.current.classList.add("recording");
 
             setTimeout(() => {
                 startRecording();
             }, timeS * 1000);
-
-        } else {
+        }else if(audio){
             stopRecording(mediaRecord);
         }
     }
@@ -114,10 +130,8 @@ export default function Record() {
 
     //Function to stop recording
     const stopRecording = (mediaRecord) => {
-        if(isMode == 2) return;
         mediaRecord.stop();
         setAudio(null);
-        setIsMode(1);
     }
 
     //Function to generate name file
@@ -131,23 +145,27 @@ export default function Record() {
         return result;
     }
 
+    //Function to changeMode when selecting mode
+    const changeMode = (e) => {
+        const value = e.target.value;
+
+        setIsMode(value);
+    }
+
     return (
         <div>
             <main>
                 <div className="options">
-                    <div className="form-input">
-                        <label>Start recording after: </label>
-                        <input type="text" name="timeStart" ref={timeStart} />                        
-                    </div>
-                    <div className="form-input">
-                        <label>During time recording: </label>
-                        <input type="text" name="timeDuring" ref={timeDuring} />                        
-                    </div>
+                    <select onChange={changeMode}>
+                        <option value="1">Default</option>
+                        <option value="2">Record audio within 10s after 5s</option>
+                    </select>
                 </div>
-                <div className="btn-control" onClick={toggleRecording}>
-                    {(audio) ? <box-icon color="white" size="md" name='pause'></box-icon> : <box-icon color="white" size="md" name='play' ></box-icon>}
+                <div className="btn-control" onClick={toggleRecording} ref={recordingBtn}>
+                    {(isRecording) ? <box-icon color="white" size="md" name='pause'></box-icon> : <box-icon color="white" size="md" name='play' ></box-icon>}
                 </div>
                 <div className="time">Recoding Time: {timeCount}s</div>
+                {(isMode == 2) ? "Start recording after 5s" : ""}
                 <h1>List File Recorded</h1>
                 <ul className="list-file" ref={listAudio}></ul>
             </main>
