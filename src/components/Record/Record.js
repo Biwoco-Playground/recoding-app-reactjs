@@ -14,7 +14,6 @@ export default function Record() {
     const [isRecording, setIsRecording] = useState(false);
 
     let timeS = 0;
-    let timeout = null;
 
     const listAudio = useRef(null);
     const recordingBtn = useRef(null);
