@@ -66,11 +66,15 @@ export default function MatrixQuestion() {
 
             console.log(result);
         } if (result.destination.droppableId == "images" && result.source.droppableId == "images") {
-            const imageArr = Array.from(characters);
-            const [reorderedItem] = imageArr.splice(result.source.index, 1);
-            imageArr.splice(result.destination.index, 0, reorderedItem);
+            const imageArr = Array.from(imagesAnswer);
+            
+            const swag = imageArr[result.source.index].answer;
+            imageArr[result.source.index].answer = imageArr[result.destination.index].answer;
+            imageArr[result.destination.index].answer = swag;
 
             setImageAnswer(imageArr);
+
+            console.log(imageArr);
         }
 
         // console.log(result);
