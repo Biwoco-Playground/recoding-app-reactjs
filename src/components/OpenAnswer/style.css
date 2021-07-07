@@ -1,0 +1,24 @@
+input[type="file"] {
+    display: none;
+}
+
+select {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.uploadFile {
+    background: #3fa2ff;
+    color: #ffffff;
+    border: none !important;
+    display: inline-block !important;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}

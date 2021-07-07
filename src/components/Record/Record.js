@@ -154,6 +154,7 @@ export default function Record() {
     return (
         <div>
             <main>
+                <h1>Recording App</h1>
                 <div className="options">
                     <select onChange={changeMode}>
                         <option value="1">Default</option>

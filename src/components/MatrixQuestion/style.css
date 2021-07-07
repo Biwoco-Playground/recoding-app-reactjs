@@ -1,0 +1,52 @@
+.sort-matrix {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sort-matrix .answer, table .answer {
+    padding: 10px;
+    background: #cecece;
+    margin: 0px 10px 10px 0px;
+}
+
+.table-cell img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.table-cell {
+    width: 100%;
+}
+
+table ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+table tr {
+    vertical-align: middle;
+    display: flex;
+}
+
+table tr td:nth-child(2) {
+    min-width: 100px;
+    min-height: 50px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 20px;
+}
+
+table .answer-contain {
+    display: block;
+}
+
+table .answer-contain .answer {
+    padding: 10px;
+}
+
+table .draggable {
+    width: 100px;
+    height: 50px;
+}

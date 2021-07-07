@@ -1,0 +1,10 @@
+.question .blankText {
+    display: inline-block;
+    min-width: 20px;
+    border-bottom: 1px solid #111111;
+    margin-top: 10px;
+}
+
+.question .blankText:focus {
+    outline: none;
+}
